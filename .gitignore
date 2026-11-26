@@ -1,0 +1,42 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Streamlit credentials
+.streamlit/secrets.toml
+
+# Generated vector indexes
+vectorstore/
+
+# Local reference documents
+data/*.pdf
+
+# Local backups
+*_backup.py
+*.bak
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
